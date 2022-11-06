@@ -48,10 +48,75 @@ body {
     background-color: rgb(0, 0, 0);
 }
 
+.clock {
+    position: absolute;
+    width: 45vw;
+    height: 45vw;
+    bottom: 10%;
+    left: 27%;
+    z-index: 2;
+}
+
+.clock .hour,
+.clock .min,
+.clock .sec {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 20vw;
+    height: 20vw;
+}
+
+.hr, .mn, .sc {
+    width: 1vw;
+    height: 1vw;
+    background-color: rgb(0, 0, 0);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 100%;
+}
+
+.hr:before {
+    content: "";
+    position: absolute;
+    bottom: 90%;
+    left: 30%;
+    width: 0.5vw;
+    height: 8vw;
+    background: rgb(0, 0, 0);
+    border-radius: 6px 6px 0 0;
+}
+
+.mn:before {
+    content: "";
+    position: absolute;
+    bottom: 90%;
+    left: 32%;
+    width: 0.4vw;
+    height: 12vw;
+    background: rgb(0, 0, 0);
+    border-radius: 6px 6px 0 0;
+}
+
+.sc:before {
+    content: "";
+    position: absolute;
+    bottom: 90%;
+    left: 34%;
+    width: 0.2vw;
+    height: 16vw;
+    background: rgb(0, 0, 0);
+    border-radius: 6px 6px 0 0;
+}
+
+
 .sun {
     position: absolute;
-    bottom: 0;
-    left: 28%;
+    bottom: 10%;
+    left: 27%;
     width: 45vw;
     height: 45vw;
     border-radius: 50%;
@@ -79,6 +144,7 @@ body {
     position: absolute;
     bottom: 0;
     width: 100%;
+    z-index: 1;
 }
 
 img {
