@@ -1,2 +1,2 @@
 # AOT-Website
-Attack On Titan fan website made with HTML and CSS. ([Link To Demo](https://kooroshoo.github.io/AOT-Website/))
+Animated clock made with HTML, CSS, JacaScript based of the popular anime series Attack On Titan. ([Link To Demo](https://kooroshoo.github.io/AOT-Website/))
